@@ -1,6 +1,6 @@
 # aws-mem-cookbook
 
-TODO: Enter the cookbook description here.
+Basic cookbook to download AWS monitoring script, install it, and enter it in cron. This could also work for a basic download and unzip of almost any file though. 
 
 ## Supported Platforms
 
@@ -13,13 +13,17 @@ Ubuntu 14.04
     <th>Key</th>
     <th>Type</th>
     <th>Description</th>
-    <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['aws-mem']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
+    <td><tt>['aws-mem']['localpath']</tt></td>
+    <td>path</td>
+    <td>where you want the local install dir</td>
+    <td><tt>['aws-mem']['remotepath']</tt></td>
+    <td>url</td>
+    <td>location of file</td>
+    <td><tt>['aws-mem']['filename']</tt></td>
+    <td>url</td>
+    <td>filename</td>
   </tr>
 </table>
 
@@ -39,4 +43,4 @@ Include `aws-mem` in your node's `run_list`:
 
 ## License and Authors
 
-Author:: Ryan Ryke - ryan@itsacloudlife.com
+Author:: Ryan Ryke - ryan@itsacloudlife.com - www.cloudlifeconsulting.com
