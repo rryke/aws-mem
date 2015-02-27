@@ -1,0 +1,7 @@
+DEPENDENCIES
+  aws-mem
+    path: .
+    metadata: true
+
+GRAPH
+  aws-mem (0.1.0)
