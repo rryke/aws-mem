@@ -3,3 +3,8 @@ os: linux
 files:
   - source: source
     destination: /etc
+hooks:
+  BeforeInstall:
+  AfterInstall:
+  ApplicationStart:
+  ValidateService:
