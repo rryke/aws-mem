@@ -1,6 +1,6 @@
-version: 1.0
+version: 2.0
 os: linux
 files:
-  - source: /recipes
+  - source: /
     destination: /etc/
 hooks:
