@@ -4,4 +4,3 @@ files:
   - source: /
     destination: /etc
 hooks:
-
