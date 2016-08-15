@@ -3,4 +3,3 @@ os: linux
 files:
   - source: /
     destination: /etc
-hooks:
