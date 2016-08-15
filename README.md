@@ -51,4 +51,4 @@ Include `aws-mem` in your node's `run_list`:
 Author:: Ryan Ryke - ryan@itsacloudlife.com - www.cloudlifeconsulting.com
 
 
-This is an update to test codedeploy
+This is an update to test code deploy
