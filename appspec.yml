@@ -1,8 +1,6 @@
----
 version: 3.2
 os: linux
 files:
   - source: /
     destination: /etc
 hooks:
-...
