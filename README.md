@@ -49,11 +49,3 @@ Include `aws-mem` in your node's `run_list`:
 ## License and Authors
 
 Author:: Ryan Ryke - ryan@itsacloudlife.com - www.cloudlifeconsulting.com
-
-
-This is an update to test code deploy
-and another update to demo
-added this to the develop branch
-update the development branch
-
-this is a codepipeline deploy
